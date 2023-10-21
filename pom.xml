@@ -7,6 +7,10 @@
     <groupId>groupId</groupId>
     <artifactId>jd2_homework</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+    <modules>
+        <module>hm01</module>
+    </modules>
 
     <properties>
         <maven.compiler.source>11</maven.compiler.source>
@@ -15,3 +19,4 @@
     </properties>
     
 </project>
+
