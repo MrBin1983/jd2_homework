@@ -3,11 +3,11 @@
   http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" version="4.0">
 
     <servlet>
-        <servlet-name>HelloWorld</servlet-name>
+        <servlet-name>World</servlet-name>
         <servlet-class>FirstServlet</servlet-class>
     </servlet>
     <servlet-mapping>
-        <servlet-name>HelloWorld</servlet-name>
+        <servlet-name>World</servlet-name>
         <url-pattern>/welcome</url-pattern>
     </servlet-mapping>
 
