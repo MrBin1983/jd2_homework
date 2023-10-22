@@ -9,7 +9,7 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>hm01</artifactId>
+    <artifactId>hw01</artifactId>
     <packaging>war</packaging>
 
     <properties>
@@ -28,7 +28,7 @@
     </dependencies>
 
     <build>
-        <finalName>hm01</finalName>
+        <finalName>hw01</finalName>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -40,7 +40,7 @@
                 <artifactId>tomcat7-maven-plugin</artifactId>
                 <version>2.2</version>
                 <configuration>
-                    <path>/hm01</path>
+                    <path>/hw01</path>
                     <username>tomcat</username>
                     <password>tomcat</password>
                 </configuration>
