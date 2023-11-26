@@ -32,7 +32,7 @@ public class SqlExpense {
                     "num int, " +
                     "paydate varchar(255), " +
                     "receiver int, " +
-                    "value dec);");
+                    "value dec(10,2));");
 
             statement.executeUpdate("insert into T_EXPENSES values (" +
                     id + ", '" +
