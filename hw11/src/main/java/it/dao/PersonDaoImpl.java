@@ -15,8 +15,6 @@ public class PersonDaoImpl implements PersonDao{
         this.sessionFactory = sessionFactory;
     }
 
-
-
     @Override
     public Person getPerson(int id) {
         Session session = null;
@@ -59,7 +57,6 @@ public class PersonDaoImpl implements PersonDao{
     public void addPerson(Person person) {
         Session session = null;
         Transaction transaction = null;
-        int id;
         try {
             session = sessionFactory.openSession();
             transaction = session.beginTransaction();
